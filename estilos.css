@@ -2,6 +2,10 @@ img{
     width: 140px;
 }
 
+body{
+    margin:0px
+}
+
 #img{
     text-align: center;
     margin-top: 15%;
@@ -36,6 +40,7 @@ img{
     margin-left: 10%;
     background-color: rgb(93, 174, 240);
     border-color: rgb(93, 174, 240);
+    color: white;
 }
 
 div{
@@ -57,13 +62,49 @@ a{
 }
 
 #section-page2{
-    border-radius: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
     background-color: white;
+    height: 78vh;
 }
 
-main{
-    background: linear-gradient(to right, blue, pink, purple);
+#page2{
+    background: linear-gradient(to right, rgb(94, 94, 235), pink, purple);
 }
+
+#registro{
+    text-align: center;
+    font-size: 180%;
+}
+
+#name{
+    height: 40px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#identificacion{
+    height: 40px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#cellphone{
+    height: 40px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#ciudades{
+    height: 40px;
+    text-align: center;
+    width: 82%;
+    margin-left: 10%;
+}
+
 
 
 

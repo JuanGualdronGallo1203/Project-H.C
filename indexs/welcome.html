@@ -8,9 +8,44 @@
 </head>
 <body id="page2">
     <main>
-        <img src="/img/logo-avion.png" alt="Logo" id="img-header">
+        <nav>
+            <img src="/img/logo-avion.png" alt="Logo" id="img-header">
+        </nav>
         <section id="section-page2">
-
+            <p id="registro">Registro</p>
+            <hr>
+            <br>
+            <form action="/indexs/recuperar-contraseña.html" method="get">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="nombre Completo" required>
+                <br><br>
+                <label for="identificacion"></label>
+                <input type="text" id="identificacion" name="identificacion" placeholder="No. Identificación" required>
+                <br><br>
+                <label for="useremail"></label>
+                <input type="email" id="useremail" name="useremail" placeholder="E-mail" required>
+                <br><br>
+                <label for="cellphone"></label>
+                <input type="tel" id="cellphone" name="cellphone" placeholder="Télefono" required>
+                <br><br>
+                <select name="ciudades" id="ciudades">
+                    <option value="Valor 1"> Ciudad</option>
+                    <option value="Valor 2"> Armenia</option>
+                    <option value="Valor 3"> Barranquilla</option>
+                    <option value="Valor 4"> Bogotá</option>
+                    <option value="Valor 5"> Bucaramanga</option>
+                    <option value="Valor 6"> Cali</option>
+                    <option value="Valor 7"> Cartagena</option>
+                    <option value="Valor 8"> Cúcuta</option>
+                    <option value="Valor 9"> Ibagué</option>
+                    <option value="Valor 10"> Manizales</option>
+                    <option value="Valor 11"> Medellín</option>
+                    <option value="Valor 12"> Pereira</option>
+                    <option value="Valor 13"> Santa Marta</option>
+                    <option value="Valor 14"> Villavicencio</option>
+                </select>
+                <br><br>
+                <button type="submit" id="button">GUARDAR</button>
         </section>
     </main>
 </body>
