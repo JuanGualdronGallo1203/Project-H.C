@@ -48,6 +48,23 @@ a{
     color: rgb(93, 174, 240);
 }
 
+#img-header{
+    display: flex;
+    max-height: 18vh;
+    width: 70%;
+    object-fit:fill;
+    margin-left: 20%;
+}
+
+#section-page2{
+    border-radius: 20%;
+    background-color: white;
+}
+
+main{
+    background: linear-gradient(to right, blue, pink, purple);
+}
+
 
 
 
