@@ -18,14 +18,12 @@ body{
 
 #useremail{
     height: 40px;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
 }
 
 #password{
     height: 40px;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
 }
@@ -65,7 +63,7 @@ a{
     border-top-left-radius: 10px;
     border-top-right-radius:10px;
     background-color: white;
-    height: 78vh;
+    height: 85vh;
 }
 
 #page2{
@@ -73,38 +71,40 @@ a{
 }
 
 #registro{
-    text-align: center;
     font-size: 180%;
+    margin-top: 10%;
+
 }
 
 #name{
     height: 40px;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
 }
 
 #identificacion{
     height: 40px;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
 }
 
 #cellphone{
     height: 40px;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
 }
 
 #ciudades{
     height: 40px;
-    text-align: center;
     width: 82%;
     margin-left: 10%;
 }
 
+#text{
+    font-size: 110%;
+    width: 80%;
+    margin-left: 10%;
+}
 
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body id="page2">
@@ -12,12 +12,14 @@
             <img src="/img/logo-avion.png" alt="Logo" id="img-header">
         </nav>
         <section id="section-page2">
-            <p id="registro">Registro</p>
+            <div>
+                <p id="registro">Registro</p>
+            </div>
             <hr>
             <br>
             <form action="/indexs/recuperar-contraseña.html" method="get">
                 <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="nombre Completo" required>
+                <input type="text" id="name" name="name" placeholder="Nombre Completo" required>
                 <br><br>
                 <label for="identificacion"></label>
                 <input type="text" id="identificacion" name="identificacion" placeholder="No. Identificación" required>
@@ -46,6 +48,7 @@
                 </select>
                 <br><br>
                 <button type="submit" id="button">GUARDAR</button>
+            </form>
         </section>
     </main>
 </body>
