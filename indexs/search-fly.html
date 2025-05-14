@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda de Vuelos</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body id="page2">
+    <main>
+        <nav>
+            <img src="/img/logo-avion.png" alt="Logo" id="img-header">
+        </nav>
+        <section id="section-page2">
+            <div>
+                <div id="log">
+                    <img src="/img/logo-user.png" alt="logo user" class="log">
+                    <span class="name">Juan Gualdron</span>
+                    <a href="./logout.html" class="name">Cerrar sesión</a>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p id="registro">Busqueda De Vuelos</p>
+            </div>
+            <form action="./flights-available.html" method="get">
+                <input type="checkbox" id="checkbox" name="checkbox1"> Solo ida
+                <br><br>
+                <input type="text" id="origin" name="origin" placeholder="Origen" required>
+                <br><br>
+                <input type="text" id="destiny" name="datiny" placeholder="Destino" required>
+                <br><br>
+                <input type="date" id="f-start" name="f.start" placeholder="Fecha De Inicio" required>
+                <br><br>
+                <input type="date" id="f-end" name="f-end" placeholder="Fecha De Regreso" required>
+                <br><br>
+                <button type="submit" id="button">GUARDAR</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
