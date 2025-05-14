@@ -183,3 +183,24 @@ p {
 .tarjeta1 a {
     text-decoration: none;
 }
+
+#origin, #destiny, #f-start, #f-end{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.log{
+    width: 50px;
+}
+
+#log{
+    display: flex;
+    margin-right: 80%;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    margin-left: 150px;
+}
