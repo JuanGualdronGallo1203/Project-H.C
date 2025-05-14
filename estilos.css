@@ -71,7 +71,7 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
-    height: 85vh;
+    height: 86vh;
 }
 
 #page2 {
@@ -79,7 +79,7 @@ a {
 }
 
 #registro {
-    font-size: 180%;
+    font-size: 170%;
     margin-top: 10%;
 
 }
@@ -146,7 +146,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4vh;
+    padding: 3vh;
 }
 
 .tarjeta1 {
@@ -190,17 +190,66 @@ p {
     margin-left: 10%;
 }
 
-.log{
-    width: 50px;
-}
-
-#log{
+#text3{
     display: flex;
-    margin-right: 80%;
     flex-direction: column;
+    align-items: start;
+    margin-left: 15px;
 }
 
-.name{
+#recuadro{
+    border: 2px solid grey;
+    box-shadow: 0px 0px 5px 3px grey;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    margin-left:3%;
+    margin-top: 2%;
+}
+
+#check{
+    margin-top: 1%;
+}
+
+.names{
+    font-family: ;
+}
+
+.logout{
+    font-size: ;
+}
+
+#cabecera {
+    flex: 1;
     display: flex;
-    margin-left: 150px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#marca {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+#registros{
+    margin-top: 3%;
+}
+
+#tarjetass {
+    padding: 2vh;
+}
+
+#tarjeta{
+    width: 47vh;
+}
+
+#tarjetaa{
+    padding: 1.2vh;
 }
