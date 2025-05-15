@@ -106,3 +106,7 @@ Todas las imágenes e iconos han sido optimizados y organizados en la carpeta `/
 1. **Clona este repositorio:**
    bash´´´
    git clone https://github.com/JuanGualdronGallo1203/Project-H.C
+
+   ## 📝 Créditos
+
+Desarrollado con ❤️ por LOS REYES DEL HTML (Juanse y Gualdron).

@@ -26,16 +26,19 @@ body {
     height: 40px;
     width: 80%;
     margin-left: 10%;
+    margin-top: vw;
 }
 
 #password {
     height: 40px;
     width: 80%;
     margin-left: 10%;
+    margin-top: 8vw;
 }
 
 #checkbox {
-    margin-left: 10%
+    margin-left: 10%;
+    margin-top: 5vw;
 }
 
 #button {
@@ -46,13 +49,13 @@ body {
     background-color: rgb(93, 174, 240);
     border-color: rgb(93, 174, 240);
     color: white;
-    transition: transform 0.4s cubic-bezier(0.79, 1.33, 0.24, 0.36);
+    transition: transform 0.4s cubic-bezier(0.92, 1.33, 0.20, 0.36);
+    margin-top: 10vw;
 }
 
 #button:hover {
-    transform: translateY(4px);
-    background-color: red;
-    /*transform: scale(1.3);*/
+    background-color: rgb(92, 132, 177);
+    transform: scale(1.3);
 }
 
 div {
@@ -77,7 +80,7 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
-    height: 86vh;
+    height: 88vh;
 }
 
 #page2 {
@@ -152,7 +155,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3vh;
+    padding: 4vh;
+    gap: 20px;
 }
 
 .tarjeta1 {
@@ -222,14 +226,6 @@ p {
     margin-top: 1%;
 }
 
-.names{
-    font-family: ;
-}
-
-.logout{
-    font-size: ;
-}
-
 #cabecera {
     flex: 1;
     display: flex;
@@ -258,4 +254,23 @@ p {
 
 #tarjetaa{
     padding: 1.2vh;
+}
+
+@media (max-width: 699px){
+    .advertencia{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 699px) {
+    body > *:not(.advertencia) {
+        display: none !important;
+    }
+    
+    .advertencia {
+        display: flex !important;
+        margin-top: 30vw;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
 }
