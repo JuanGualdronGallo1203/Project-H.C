@@ -256,10 +256,31 @@ p {
     padding: 1.2vh;
 }
 
+
+
 @media (max-width: 699px){
     .advertencia{
         display: none;
     }
+
+    #imga{
+        width: 35%;
+        padding-top: 15%;
+        animation: pulso 2.5s infinite;
+        animation-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+    }
+    
+    @keyframes pulso {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05); 
+        }
+        100% {
+            transform: scale(1);
+        }
+}
 }
 
 @media only screen and (min-width: 699px) {
@@ -273,4 +294,7 @@ p {
         left: 0;
         width: 100vw;
         height: 100vh; 
+}
+
+
 }
