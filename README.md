@@ -34,8 +34,7 @@ El proyecto incluye el desarrollo completo de las siguientes pantallas:
 ---
 
 ## 🗂️ Estructura del Proyecto
-bash
-```
+bash´´´
 
 acme-air-ui/
 │
