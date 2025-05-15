@@ -34,7 +34,8 @@ El proyecto incluye el desarrollo completo de las siguientes pantallas:
 ---
 
 ## 🗂️ Estructura del Proyecto
-bash´´´
+bash
+```
 
 acme-air-ui/
 │
@@ -59,7 +60,7 @@ acme-air-ui/
 ├── index.html 🏠 Página inicial (redirige a login)
 ├── README.md 📝 Documentación del proyecto
 └── LICENSE 🔐 Licencia MIT
-```
+´´´
 
 ---
 
